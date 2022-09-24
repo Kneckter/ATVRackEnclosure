@@ -24,8 +24,8 @@ I ask that if you make useful alterations or improvements to this design, please
      - 19-25mm = 3 boards
  - M6 rack screws and cage nuts (https://www.amazon.com/dp/B09BYTWFSN)
  - 5mm x 12mm x 12mm heat sinks (https://www.amazon.com/dp/B07ZC56CRL)
-   - Fits in the space left by the 10mm standoffs without touching the next board
- - #8-32 Threaded rod (https://www.mcmaster.com/90322A624/)
+   - Fits in the space left by the 12mm standoffs without touching the next board
+ - #8-32 Threaded rod (https://www.mcmaster.com/98837A009/)
    - Only the bottom 2 rod holes need to be populated so I did not recess the top set.
    - The rods must be short enough to fit between the rack's rail mounts, which is about 450mm (17_11/16"). 
    - The hole was made to fit 5mm (0.196" or #10) rod so you can substitute for w/e the cheapest rod you can find.
