@@ -82,6 +82,7 @@ Below are the names and what they contain. The images are of the current parts.
    - x96_Flat_Right.FCStd - Contains the right-side adaptor that you screw to the standoffs after putting the boards together. Note that it is also mirrored because I didn't want to remake it.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_right.jpg)
    - x96_NamePlate.FCStd - Contains the two name plates that you can insert into the AV/Aux ports for labels.<br>
+   - HDMI_NamePlate.FCStd - Contains the HDMI name plates that you can insert into the HDMI port for labels.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/name_plates.jpg)
    - Logo.FCStd - Contains two versions of the logo that's on the front of the enclosure.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/logos.jpg)
@@ -91,6 +92,7 @@ Below are the names and what they contain. The images are of the current parts.
    - x96_Cage_Right.stl - This is the printable right-side of the enclosure. Rotate the model so the fin is in the air before printing it.
    - x96_Flat_Left.stl - This is the printable left board adaptor. Rotate the model so the bumps are in the air before printing it.
    - x96_Flat_Right.stl - This is the printable right board adaptor. Rotate the model so the recessed holes are in the air before printing it.
-   - x96_NamePlate_Long.stl - This is the optional printable long name plate.
-   - x96_NamePlate_Short.stl - This is the optional printable short name plate.
+   - x96_NamePlate_Long.stl - This is the optional printable long AUX name plate.
+   - x96_NamePlate_Short.stl - This is the optional printable short AUX name plate.
+   - HDMI_NamePlate_Short.stl - This is the optional printable short HDMI name plate.
    - Logo.stl - Just a logo, it does not need to be printed by itself.
