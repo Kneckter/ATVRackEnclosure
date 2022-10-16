@@ -39,8 +39,8 @@ I ask that if you make useful alterations or improvements to this design, please
 ## Printing
 I printed this with a Prusa i3 MK3S+ and the sections are almost at the max height. The print is about 203mm and the printer can go to 210mm. 
 To minimize the support material, I printed these face down with supports drawn only on the fan mounts like this 
-![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/support_paint.png) 
-![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/support_slice.png)
+![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/support_paint.jpg) 
+![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/support_slice.jpg)
 <br>*I get that there are overhangs in other areas but they are not structural and I made most into bevels so they will have a little support as they print.*
 You can print 2 of the sections together or 1 with a couple of flat adaptors that you need to put the boards in the bays (5 sets per enclosure).
 
@@ -55,8 +55,8 @@ For the boards and adaptors, start with a board on top of the left adaptor and t
 hen stack boards and standoffs until you have 86mm all together. 
 Make sure that the last standoff holds the last board in place and screw on the right adaptor into the standoff's hole. 
 Use screws for plastic to put the right adaptor on (I used the 3 screws from the ATVs for this). Insert the block into a bay when you're ready.<br>
-![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flats_attached.png)
-![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flats_installed.png)
+![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flats_attached.jpg)
+![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flats_installed.jpg)
 
 Optional to the tape labels above, you can print the small or long name plate files that look like this:<br>
 ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/optional_name_plates.jpg)
@@ -66,7 +66,7 @@ Put nuts on both ends of the rods. Make sure the rod is no longer than the enclo
 Screw fans onto the fan mounts and tie their wiring together. 
 You can use the large Molex connectors to link them together and then you can use the final adaptor to power the whole line. 
 I used the final small Molex for its wires so I can add the barrle power adaptor.<br>
-![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/filled_rack.png)
+![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/filled_rack.jpg)
 ![20220822_182918](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/back_installed.jpg)
 ![20220822_182524](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/front_installed.jpg)
 
@@ -76,15 +76,15 @@ Below are the names and what they contain. The images are of the current parts.
 
  - Part Files:
    - x96_Cage.FCStd - Contains the 3 sections of the enclosure. Note that the right is a mirror of the left-side and the middle is a bisection of the left-side, minus the rack mount.<br>
-   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/cage_sections.png)
+   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/cage_sections.jpg)
    - x96_Flat_Left.FCStd - Contains the left-side adaptor for mounting boards to. Note that it is mirrored because I didn't want to remake it.<br>
-   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_left.png)
+   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_left.jpg)
    - x96_Flat_Right.FCStd - Contains the right-side adaptor that you screw to the standoffs after putting the boards together. Note that it is also mirrored because I didn't want to remake it.<br>
-   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_right.png)
+   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_right.jpg)
    - x96_NamePlate.FCStd - Contains the two name plates that you can insert into the AV/Aux ports for labels.<br>
-   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/name_plates.png)
+   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/name_plates.jpg)
    - Logo.FCStd - Contains two versions of the logo that's on the front of the enclosure.<br>
-   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/logos.png)
+   ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/logos.jpg)
  - Print Files:
    - x96_Cage_Left.stl - This is the printable left-side of the enclosure. Rotate the model so the fin is in the air before printing it.
    - x96_Cage_Middle.stl - This is the printable middle section of the enclosure. Rotate the model so the fin is in the air before printing it.
