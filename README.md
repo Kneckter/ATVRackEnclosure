@@ -1,12 +1,11 @@
 # Printable ATV Rack Enclosure
 This was created with FreeCAD and I am not a CAD person, so the parts were not created in draft/draw. 
-This is setup to fit 1 to 7 x96 Minis in a bay so you can fit 5 to 35 in one enclosure. 
+This is setup to fit 1 to 7 ATVs in a bay so you can fit 5 to 35 in one enclosure. 
 It also has fins off the back for mounting 20-port Sipolar USB hubs without losing rack space. 2 enclosures would require 3 hubs so there are 3 fins.
 
-This can be expanded to fit other boards if needed. Without losing compatibility for fitting the x96 Minis. 
-All that's required are new board adaptors and to make the bay taller (if needed).
+This can be expanded to fit other boards if needed. All that's required are new board adaptors (left and right sides).
 
-I ask that if you make useful alterations or improvements to this design, please create a pull request to share with the community.
+I ask that if you make useful alterations or improvements to this design, please create a pull request back to this repo to share with the community.
 
 ## Parts List
  - 3D printer with filament
@@ -33,8 +32,8 @@ I ask that if you make useful alterations or improvements to this design, please
  - #8-32 nuts (https://www.mcmaster.com/94450A517/)
    - Hex or square, w/e is cheapest for you. The recessed spots are setup to fit hex and should fit square.
    - The shorter the better for fitting between the rack's rail mounts.
- - M2 x 5mm plastic screws (https://www.mcmaster.com/90380A325/)
-   - These are used to hold the right adaptor to the standoffs. I did not buy these specific ones as I used the 3 screws the ATV came with.
+ - M2 x 8mm plastic screws (https://www.mcmaster.com/90380A327/)
+   - These are used to hold the right adaptor to the standoffs. You can reused any screws the ATV came with.
 
 ## Printing
 I printed this with a Prusa i3 MK3S+ and the sections are almost at the max height. The print is about 203mm and the printer can go to 210mm. 
@@ -51,8 +50,8 @@ You can print 2 of the sections together or 1 with a couple of flat adaptors tha
 ## Assembly
 Once you have the 3 sections and 5 sets of adaptors, you can assemble it all together. (Note that these images are from a prototype and are just for example)
 
-For the boards and adaptors, start with a board on top of the left adaptor and thread a standoff through the board hole into the adaptor. T
-hen stack boards and standoffs until you have 86mm all together. 
+For the boards and adaptors, start with a board on top of the left adaptor and thread a standoff through the board hole into the adaptor. 
+Then stack boards and standoffs until you have 86mm all together. 
 Make sure that the last standoff holds the last board in place and screw on the right adaptor into the standoff's hole. 
 Use screws for plastic to put the right adaptor on (I used the 3 screws from the ATVs for this). Insert the block into a bay when you're ready.<br>
 ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flats_attached.jpg)
@@ -75,24 +74,24 @@ There are multiple files in this repo but only the .stl files are needed for 3D 
 Below are the names and what they contain. The images are of the current parts.
 
  - Part Files:
-   - Enclosure.FCStd - Contains the 3 sections of the enclosure. Note that the right is a mirror of the left-side and the middle is a bisection of the left-side, minus the rack mount.<br>
+   - `Enclosure.FCStd` - Contains the 3 sections of the enclosure. Note that the right is a mirror of the left-side and the middle is a bisection of the left-side, minus the rack mount.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/cage_sections.jpg)
-   - x96_Flat_Left.FCStd - Contains the left-side adaptor for mounting boards to. Note that it is mirrored because I didn't want to remake it.<br>
+   - `Flat_Left.FCStd` - Contains the left-side adaptors for mounting boards to.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_left.jpg)
-   - x96_Flat_Right.FCStd - Contains the right-side adaptor that you screw to the standoffs after putting the boards together. Note that it is also mirrored because I didn't want to remake it.<br>
+   - `Flat_Right.FCStd` - Contains the right-side adaptors that you screw to the standoffs after putting the boards together.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_right.jpg)
-   - x96_AuxNamePlate.FCStd - Contains the two name plates that you can insert into the AV/Aux ports for labels.<br>
-   - HDMI_NamePlate.FCStd - Contains the HDMI name plates that you can insert into the HDMI port for labels.<br>
+   - `AuxNamePlate.FCStd` - Contains the name plates that you can insert into the AV/Aux ports for labels.<br>
+   - `HDMI_NamePlate.FCStd` - Contains the HDMI name plates that you can insert into the HDMI port for labels.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/name_plates.jpg)
-   - Logo.FCStd - Contains two versions of the logo that's on the front of the enclosure.<br>
+   - `Logo.FCStd` - Contains two versions of the logo that's on the front of the enclosure.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/logos.jpg)
  - Print Files:
-   - Enclosure_Left.stl - This is the printable left-side of the enclosure. Rotate the model so the fin is in the air before printing it.
-   - Enclosure_Middle.stl - This is the printable middle section of the enclosure. Rotate the model so the fin is in the air before printing it.
-   - Enclosure_Right.stl - This is the printable right-side of the enclosure. Rotate the model so the fin is in the air before printing it.
-   - x96_Flat_Left.stl - This is the printable left board adaptor. Rotate the model so the bumps are in the air before printing it.
-   - x96_Flat_Right.stl - This is the printable right board adaptor. Rotate the model so the recessed holes are in the air before printing it.
-   - x96_AuxNamePlate_Long.stl - This is the optional printable long AUX name plate.
-   - x96_AuxNamePlate_Short.stl - This is the optional printable short AUX name plate.
-   - HDMI_NamePlate_Short.stl - This is the optional printable short HDMI name plate.
-   - Logo.stl - Just a logo, it does not need to be printed by itself.
+   - `Enclosure_Left.stl` - This is the printable left-side of the enclosure. Rotate the model so the fin is in the air before printing it.
+   - `Enclosure_Middle.stl` - This is the printable middle section of the enclosure. Rotate the model so the fin is in the air before printing it.
+   - `Enclosure_Right.stl` - This is the printable right-side of the enclosure. Rotate the model so the fin is in the air before printing it.
+   - `*_Flat_Left*.stl` - This is the printable left board adaptor. Rotate the model so the bumps are in the air before printing it.
+   - `*_Flat_Right*.stl` - This is the printable right board adaptor. Rotate the model so the recessed holes are in the air before printing it.
+   - `x96_AuxNamePlate_Long.stl` - This is the optional printable long AUX name plate.
+   - `x96_AuxNamePlate_Short.stl` - This is the optional printable short AUX name plate.
+   - `HDMI_NamePlate_Short.stl` - This is the optional printable short HDMI name plate.
+   - `Logo.stl` - Just a logo, it does not need to be printed by itself.
