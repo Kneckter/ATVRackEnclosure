@@ -87,7 +87,8 @@ Below are the names and what they contain. The images are of the current parts.
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_left.jpg)
    - `Flat_Right.FCStd` - Contains the right-side adaptors that you screw to the standoffs after putting the boards together.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/flat_right.jpg)
-   - `AuxNamePlate.FCStd` - Contains the name plates that you can insert into the AV/Aux ports for labels.<br>
+   - `Fan_Riser_Peg.FCStd` - Contains a fan riser peg for the desktop prints for anyone that lays it fans down.
+   - `AuxNamePlate.FCStd` - Contains the name plates that you can insert into the AV/Aux ports for labels.
    - `HDMI_NamePlate.FCStd` - Contains the HDMI name plates that you can insert into the HDMI port for labels.<br>
    ![image](https://raw.githubusercontent.com/Kneckter/ATVRackEnclosure/master/Images/name_plates.jpg)
    - `Logo.FCStd` - Contains two versions of the logo that's on the front of the enclosure.<br>
@@ -101,6 +102,7 @@ Below are the names and what they contain. The images are of the current parts.
    - `Enclosure_Right.stl` - This is the printable right-side of the enclosure. Rotate the model so the fin is in the air before printing it.
    - `*_Flat_Left*.stl` - This is the printable left board adaptor. Rotate the model so the bumps are in the air before printing it.
    - `*_Flat_Right*.stl` - This is the printable right board adaptor. Rotate the model so the recessed holes are in the air before printing it.
+   - `Fan_Riser_Peg.stl` - This is the printable fan riser peg for the desktop enclosure.
    - `x96_AuxNamePlate_Long.stl` - This is the optional printable long AUX name plate.
    - `x96_AuxNamePlate_Short.stl` - This is the optional printable short AUX name plate.
    - `HDMI_NamePlate_Short.stl` - This is the optional printable short HDMI name plate.
